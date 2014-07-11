@@ -1,0 +1,35 @@
+div{
+	border-radius:50%;
+	position: absolute;
+	top:150px;
+	left:150px;
+}
+.circle1{
+	width:200px;
+	height:200px;
+	background: linear-gradient(purple,cornflowerblue);
+	position: absolute;
+.circle1:hover{
+	transition: all 6s ease;
+	-webkit-transform:rotateY(720deg) 
+						rotateX(720deg) 
+						rotateZ(360deg);
+	}
+}
+
+.circle2{
+	width:80px;
+	height:80px;
+	position: absolute;
+	top:260px;
+	left:260px;
+	background: #1D7CF2;
+}
+.box{
+	width:300px;
+	height:300px;
+	&:hover{
+	transition:all 6s ease;
+	-webkit-transform:rotate(720deg)
+	}
+}
