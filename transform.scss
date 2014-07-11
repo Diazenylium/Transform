@@ -7,13 +7,13 @@ div{
 .circle1{
 	width:200px;
 	height:200px;
-	background: linear-gradient(purple,cornflowerblue);
+	background: linear-gradient(blue,cornflowerblue);
 	position: absolute;
-.circle1:hover{
+	&:hover{
 	transition: all 6s ease;
 	-webkit-transform:rotateY(720deg) 
-						rotateX(720deg) 
-						rotateZ(360deg);
+			rotateX(720deg) 
+			rotateZ(360deg);
 	}
 }
 
